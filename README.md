@@ -4,11 +4,14 @@ How to run the code and tests?
 -------------------------------------------------------------------
 (Make sure run the commands below in Java 1.7 enviroment).
 1. Compile all the code:
-javac  *.java
+  javac  *.java
+
 2. Run unit tests:
-java GraphTest
-4. Run Functional tests: 
+  java GraphTest
+
+3. Run Functional tests: 
 java FunctionTest testOne.txt testOneOutput.txt testTwo.txt testTwoOutput.txt 
+
 (note: names.txt and names2.txt is input file, testOne.txt and testTwo.txt is corrsponding output file) 
 
 
